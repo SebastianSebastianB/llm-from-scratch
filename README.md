@@ -28,7 +28,7 @@ Ten przykład pokazuje, jak działa generowanie tekstu przez sieć neuronową i 
 
 ```
 .
-├── model.pth         # Wytrenowany model transformerowy (zapisany przez notebook)
+├── model.pth         # Wytrenowany model (zapisany przez notebook)
 ├── data/
 │   └── raw/
 │       └── sample.txt            # Przykładowy korpus tekstowy do treningu
@@ -70,8 +70,8 @@ venv\Scripts\activate  # Windows
 
 ## 📝 Zawartość notebooków
 
-- **01_intro.ipynb**  
-  - Krótkie wprowadzenie do sieci neuronowych i LLM
+- **01_simple_char_llm.ipynb**  
+  - Prosty model językowy (char-level LLM) – wprowadzenie
   - Przygotowanie i tokenizacja danych tekstowych
   - Implementacja prostego modelu językowego (char-level) z warstwą embedding i warstwami liniowymi (MLP)
   - Trening, generowanie tekstu, eksperymenty, prosty interfejs chatbota
