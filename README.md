@@ -66,7 +66,7 @@ venv\Scripts\activate  # Windows
 
 3. **Uruchom Jupyter Notebook:**
 
-   Otwórz `notebooks/01_intro.ipynb` i wykonaj wszystkie komórki.
+   Otwórz `notebooks/01_simple_char_llm.ipynb` i wykonaj wszystkie komórki.
 
 ## 📝 Zawartość notebooków
 
